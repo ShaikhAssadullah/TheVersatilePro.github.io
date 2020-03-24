@@ -1,5 +1,4 @@
 html {
-	background: -webkit-radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
 	background: -moz-radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
 	background: -o-radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
 	background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
@@ -37,7 +36,6 @@ nav a {
   text-decoration: none;
   padding: 15px;
   font-size: 20px;
-  -webkit-transition:  .5s ease-in-out;
   -moz-transition:  .5s ease-in-out;
   -o-transition:  .5s ease-in-out;
   transition:  .5s ease-in-out;
