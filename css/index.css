@@ -1,0 +1,196 @@
+html {
+	background: -moz-radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
+	background: -o-radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
+	background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
+}
+
+body {
+	color: #ced2d6;
+    font: 300 14px/22px "Lato", "Arial", "Helvetica", sans-serif;
+}
+
+header {
+	background-color: rgba(1,1,1,0.5);
+	padding: 50px;
+}
+
+.logo {
+	display: block;
+	float: left;
+    background: url(https://i.imgur.com/COnmmjE.png?1) no-repeat;
+    width: 320px;
+    height: 151px;
+    margin-top: -50px;
+}
+
+nav.main_nav {
+	float: right;
+	width: inherit;
+	margin: 0 auto;
+	margin-top: 13px;
+}
+
+nav.main_nav a {
+  color: #868c91;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
+  -webkit-transition:  .5s ease-in-out;
+  -moz-transition:  .5s ease-in-out;
+  -o-transition:  .5s ease-in-out;
+  transition:  .5s ease-in-out;
+}
+
+nav.main_nav a:last-child {
+	margin-right: 100px;
+}
+
+nav.main_nav a:hover {
+	background-color: rgba(64, 64, 64,0.6);
+	color: #ffa31a;
+}
+nav a.active {
+	background-color: rgba(64, 64, 64,0.6);
+	color: #ffa31a;
+}
+
+/*Slides*/
+section.slider {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5%;
+	position: relative;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	background-color: transparent;
+	-webkit-box-shadow: 2px 2px 5px 2px rgba(255, 255, 255,0.5);
+	-moz-box-shadow: 2px 2px 5px 2px rgba(255, 255, 255,0.5);
+	-o-box-shadow: 2px 2px 5px 2px rgba(255, 255, 255,0.5);
+	box-shadow: 2px 2px 5px 2px rgba(255, 255, 255,0.5);
+	width: 90%;
+	height: 400px;
+	overflow: hidden;
+}
+
+input.slider_buttons {
+	display: none;
+}
+
+.slide {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.slide img {
+	width: inherit;
+	height: inherit;
+}
+
+.prevslide span, .nextslide span {
+	position: absolute;
+	border: solid 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.prevslide span {
+	border-color: transparent #fff transparent transparent;
+	left: 0;
+}
+
+.nextslide span {
+	border-color: transparent transparent transparent #fff;
+	right: 0;
+}
+
+.prevslide span:hover, .prevslide span:active {
+	border-color: transparent #000 transparent transparent;
+}
+
+.nextslide span:hover, .nextslide span:active {
+	border-color: transparent transparent transparent #000;
+	right: 0;
+}
+
+.slider_nav {
+	width: 100%;
+	bottom: 12%;
+	height: 11px;
+	position: absolute;
+	text-align: center;
+	z-index: 99;
+	cursor: pointer;
+}
+
+.slider_dots {
+	top: -5px;
+	width: 18px;
+	height: 18px;
+	margin: 0 3px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #000;
+	transition: .4s linear;
+	cursor: pointer;
+}
+
+.slider_dots:hover {
+	background-color: #ffa31a;
+}
+
+#img1:checked ~ #one, #img2:checked ~ #two, #img3:checked ~ #three {
+	z-index: 9;
+	-webkit-animation: change 1s linear;
+	-moz-animation: change 1s linear;
+	-o-animation: change 1s linear;
+	animation: change 1s linear;
+}
+
+#img1:checked ~ .slider_nav #dot1, #img2:checked ~ .slider_nav #dot2, #img3:checked ~ .slider_nav #dot3 {
+	background-color: #fff;
+}
+
+
+@keyframes change {
+	0%{ opacity: .4%; }
+	100%{opacity: 100%; }
+}
+/*slide ends*/
+
+
+/*Server information ;)*/
+.info {
+	display: block;
+	padding: 100px;
+}
+
+footer {
+	background-color: rgba(1,1,1,0.5);
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: #ffa31a;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
