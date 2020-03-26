@@ -2,7 +2,6 @@ html {
 	background: -moz-radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
 	background: -o-radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
 	background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
-	margin-bottom: 0;
 }
 
 body {
@@ -22,12 +21,12 @@ header {
     width: 26%;
     padding-bottom: 2%;
     margin-top: -4%;
+    cursor: default;
 }
 
 nav.main_nav {
 	float: right;
 	width: inherit;
-	margin: 0 auto;
 	margin-top: 13px;
 }
 
@@ -57,7 +56,7 @@ nav a.active {
 }
 
 /*Slides*/
-section.slider {
+div.slider {
 	clear: both;
 	display: block;
 	margin: 0 auto;
@@ -125,7 +124,7 @@ input.slider_buttons {
 
 .slider_nav {
 	width: 100%;
-	bottom: 12%;
+	bottom: 5%;
 	height: 11px;
 	position: absolute;
 	text-align: center;
@@ -180,6 +179,7 @@ footer {
 	background-color: rgba(1,1,1,0.5);
 	text-align: center;
 	padding-top: 30px;
+	margin-bottom: 0;
 }
 
 footer a {
