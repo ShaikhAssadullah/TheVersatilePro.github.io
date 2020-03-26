@@ -18,9 +18,9 @@ header {
 	display: block;
 	float: left;
     background: url(https://i.imgur.com/COnmmjE.png?1) no-repeat;
-    width: 320px;
+    width: 26%;
     height: 151px;
-    margin-top: -50px;
+    margin-top: -4%;
 }
 
 nav.main_nav {
@@ -35,15 +35,15 @@ nav.main_nav a {
   text-align: center;
   text-decoration: none;
   padding: 15px;
-  font-size: 20px;
-  -webkit-transition:  .5s ease-in-out;
-  -moz-transition:  .5s ease-in-out;
-  -o-transition:  .5s ease-in-out;
-  transition:  .5s ease-in-out;
+  font-size: 1.4em;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 nav.main_nav a:last-child {
-	margin-right: 100px;
+	margin-right: 5em;
 }
 
 nav.main_nav a:hover {
@@ -72,7 +72,7 @@ section.slider {
 	-o-box-shadow: 2px 2px 5px 2px rgba(255, 255, 255,0.5);
 	box-shadow: 2px 2px 5px 2px rgba(255, 255, 255,0.5);
 	width: 90%;
-	height: 400px;
+	padding-bottom: 30%;
 	overflow: hidden;
 }
 
@@ -97,6 +97,10 @@ input.slider_buttons {
 	border: solid 20px;
 	top: 50%;
 	transform: translateY(-50%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
 }
 
 .prevslide span {
@@ -110,11 +114,11 @@ input.slider_buttons {
 }
 
 .prevslide span:hover, .prevslide span:active {
-	border-color: transparent #000 transparent transparent;
+	border-color: transparent #ffa31a transparent transparent;
 }
 
 .nextslide span:hover, .nextslide span:active {
-	border-color: transparent transparent transparent #000;
+	border-color: transparent transparent transparent #ffa31a;
 	right: 0;
 }
 
@@ -182,15 +186,3 @@ footer a {
 	color: #ffa31a;
 	font-style: italic;
 }
-
-
-
-
-
-
-
-
-
-
-
-
