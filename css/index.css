@@ -1,3 +1,4 @@
+/*Styling the main HTML and body o the page*/
 html {
 	background: -moz-radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
 	background: -o-radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%) no-repeat;
@@ -9,6 +10,7 @@ body {
     font: 300 14px/22px "Lato", "Arial", "Helvetica", sans-serif;
 }
 
+/*Styling header, navigation menu and the logo.*/
 header {
 	background-color: rgba(1,1,1,0.5);
 	padding: 50px;
@@ -46,7 +48,7 @@ nav.main_nav a:last-child {
 	margin-right: 5em;
 }
 
-nav.main_nav a:hover {
+nav.main_nav a:hover, nav.main_nav a:focus, nav.main_nav a:active {
 	background-color: rgba(64, 64, 64,0.6);
 	color: #ffa31a;
 }
@@ -55,7 +57,7 @@ nav a.active {
 	color: #ffa31a;
 }
 
-/*Slides*/
+/*Styling the slides*/
 div.slider {
 	clear: both;
 	display: block;
@@ -169,17 +171,81 @@ input.slider_buttons {
 /*slide ends*/
 
 
-/*Server information ;)*/
+/*Styling the server information section. ;)*/
 .info {
+	box-sizing: border-box;
 	display: block;
-	padding: 100px;
+	line-height: 1.4em;
+	margin: 0 auto;
+	margin-top: 7%;
+	text-align: center;
+	background: rgba(1,1,1,0.5);
+	padding: 2% 0 25% 0;
 }
 
+.info h1 {
+	font: small-caps bolder 250% "Times New Roman", Arial, serif;
+	margin-bottom: 3%;
+	text-align: center;
+	text-decoration: underline;
+}
+.info h2 {
+	font: small-caps bolder 200% "Times New Roman", Arial, serif;
+}
+
+.info p {
+	font: lighter 110% "Times New Roman", Arial, serif;
+	text-align: justify;
+}
+
+.info #intro {
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	width: 40%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 12% 7% 5%;
+
+}
+.info #server {
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	width: 40%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 0 7% 0;
+}
+
+.info #administration {
+	clear: both;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	width: 40%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 12% 7% 5%;
+}
+
+.info #future {
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	width: 40%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 0 7% 0;
+	
+}
+/*Styling the footer of the page.*/
 footer {
+	clear: both;
 	background-color: rgba(1,1,1,0.5);
 	text-align: center;
+	margin: 10% 0 0 0;
 	padding-top: 30px;
-	margin-bottom: 0;
 }
 
 footer a {
