@@ -63,6 +63,7 @@ div.slider {
 	display: block;
 	margin: 0 auto;
 	margin-top: 5%;
+	margin-bottom: 5%;
 	position: relative;
 	-webkit-user-select: none;
 	-ms-user-select: none;
@@ -172,27 +173,19 @@ input.slider_buttons {
 
 
 /*Styling the server information section. ;)*/
-.info {
-	display: block;
-	line-height: 1.4em;
-	margin: 0 auto;
-	height: auto;
-	margin-top: 7%;
-	text-align: center;
-}
 
-.info h1 {
+h1 {
 	font: small-caps bolder 250% "Times New Roman", Arial, serif;
 	margin-bottom: 3%;
 	text-align: center;
 	text-decoration: underline;
 }
-.info h2 {
+h2 {
 	font: small-caps bolder 200% "Times New Roman", Arial, serif;
 	margin-bottom: 2%;
 }
 
-.info p {
+p {
 	font: lighter 110% "Times New Roman", Arial, serif;
 	text-align: justify-all;
 	margin: 0 auto;
@@ -200,7 +193,7 @@ input.slider_buttons {
 	width: 80%;
 }
 
-.info #intro, .info #server, .info #administration, .info #future {
+#intro, #server, #administration, #future {
 	display: block;
 	text-align: center;
 	overflow: hidden;
@@ -214,7 +207,7 @@ input.slider_buttons {
 	background: linear-gradient(to bottom,#262626,#0d0d0d);
 }
 
-.info #discord, .info #vcmp, .info #forum {
+#discord, #vcmp, #forum {
 	display: block;
 	text-align: center;
 	overflow: hidden;
@@ -231,7 +224,7 @@ input.slider_buttons {
 
 }
 
-.info #discord a, .info #vcmp a, .info #forum a {
+#discord a, #vcmp a, #forum a {
 	display: inline-block;
 	text-decoration: none;
 	font-weight: bold;
@@ -247,7 +240,7 @@ input.slider_buttons {
 }
 
 
-.info #discord a:hover, .info #vcmp a:hover, .info #forum a:hover{
+#discord a:hover, #vcmp a:hover, #forum a:hover{
 	text-decoration: underline;
 }
 
