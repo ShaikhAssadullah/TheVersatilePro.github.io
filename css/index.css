@@ -180,7 +180,7 @@ input.slider_buttons {
 	margin-top: 7%;
 	text-align: center;
 	background: rgba(1,1,1,0.5);
-	padding: 2% 0 25% 0;
+	padding: 2% 0 330px 0;
 }
 
 .info h1 {
@@ -205,7 +205,7 @@ input.slider_buttons {
 	width: 40%;
 	height: auto;
 	overflow: hidden;
-	margin: 0 12% 7% 5%;
+	margin: 0 10% 7% 5%;
 
 }
 .info #server {
@@ -226,7 +226,7 @@ input.slider_buttons {
 	width: 40%;
 	height: auto;
 	overflow: hidden;
-	margin: 0 12% 7% 5%;
+	margin: 0 10% 7% 5%;
 }
 
 .info #future {
