@@ -7,7 +7,7 @@ html {
 
 body {
 	color: #ced2d6;
-    font: 300 14px/22px "Lato", "Arial", "Helvetica", sans-serif;
+    font: 300 14px/22px "Helvetica", "Lato", "Arial",  sans-serif;
 }
 
 /*Styling header, navigation menu and the logo.*/
@@ -45,7 +45,7 @@ nav.main_nav a {
 }
 
 nav.main_nav a:last-child {
-	margin-right: 5em;
+	margin-right: 3em;
 }
 
 nav.main_nav a:hover, nav.main_nav a:focus {
