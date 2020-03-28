@@ -12,7 +12,7 @@ body {
 
 /*Styling header, navigation menu and the logo.*/
 header {
-	background-color: rgba(1,1,1,0.5);
+	background-color: rgba(1,1,1,0.8);
 	padding: 50px;
 }
 
@@ -48,7 +48,7 @@ nav.main_nav a:last-child {
 	margin-right: 5em;
 }
 
-nav.main_nav a:hover, nav.main_nav a:focus, nav.main_nav a:active {
+nav.main_nav a:hover, nav.main_nav a:focus {
 	background-color: rgba(64, 64, 64,0.6);
 	color: #ffa31a;
 }
@@ -173,14 +173,12 @@ input.slider_buttons {
 
 /*Styling the server information section. ;)*/
 .info {
-	box-sizing: border-box;
 	display: block;
 	line-height: 1.4em;
 	margin: 0 auto;
+	height: auto;
 	margin-top: 7%;
 	text-align: center;
-	background: rgba(1,1,1,0.5);
-	padding: 2% 0 330px 0;
 }
 
 .info h1 {
@@ -191,60 +189,76 @@ input.slider_buttons {
 }
 .info h2 {
 	font: small-caps bolder 200% "Times New Roman", Arial, serif;
+	margin-bottom: 2%;
 }
 
 .info p {
 	font: lighter 110% "Times New Roman", Arial, serif;
-	text-align: justify;
+	text-align: justify-all;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 80%;
 }
 
-.info #intro {
-	box-sizing: border-box;
-	display: inline-block;
-	float: left;
-	width: 40%;
-	height: auto;
+.info #intro, .info #server, .info #administration, .info #future {
+	display: block;
+	text-align: center;
 	overflow: hidden;
-	margin: 0 10% 7% 5%;
-
-}
-.info #server {
-	box-sizing: border-box;
-	display: inline-block;
-	float: left;
-	width: 40%;
-	height: auto;
-	overflow: hidden;
-	margin: 0 0 7% 0;
+	font-size: 1.2em;
+	word-spacing: .2em;
+	padding: 2% 0 2% 0;
+	background: rgba(1,1,1,0.5);
+	background: -webkit-linear-gradient(to bottom,#262626,#0d0d0d);
+	background: -moz-linear-gradient(to bottom,#262626,#0d0d0d);
+	background: -o-linear-gradient(to bottom,#262626,#0d0d0d);
+	background: linear-gradient(to bottom,#262626,#0d0d0d);
 }
 
-.info #administration {
-	clear: both;
-	box-sizing: border-box;
-	display: inline-block;
-	float: left;
-	width: 40%;
-	height: auto;
+.info #discord, .info #vcmp, .info #forum {
+	display: block;
+	text-align: center;
 	overflow: hidden;
-	margin: 0 10% 7% 5%;
+	font-size: 1.2em;
+	word-spacing: .2em;
+	padding: 2% 0 2% 0;
+	margin: 2% 0 2% 0;
+	background: rgba(1,1,1,0.5);
+	color: #333333;
+	background: -webkit-linear-gradient(to top, #808080,#cccccc);
+	background: -moz-linear-gradient(to top, #808080,#cccccc);
+	background: -o-linear-gradient(to top, #808080,#cccccc);
+	background: linear-gradient(to top, #808080,#cccccc);
+
 }
 
-.info #future {
-	box-sizing: border-box;
+.info #discord a, .info #vcmp a, .info #forum a {
 	display: inline-block;
-	float: left;
-	width: 40%;
-	height: auto;
-	overflow: hidden;
-	margin: 0 0 7% 0;
-	
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1% 1%;
+	margin-top: 2%;
+	color: #ced2d6;
+	border: 2px solid #000;
+	background: rgba(1,1,1,0.5);
+	background: -webkit-linear-gradient(to bottom,#262626,#0d0d0d);
+	background: -moz-linear-gradient(to bottom,#262626,#0d0d0d);
+	background: -o-linear-gradient(to bottom,#262626,#0d0d0d);
+	background: linear-gradient(to bottom,#262626,#0d0d0d);
 }
+
+
+.info #discord a:hover, .info #vcmp a:hover, .info #forum a:hover{
+	text-decoration: underline;
+}
+
 /*Styling the footer of the page.*/
+
 footer {
 	clear: both;
-	background-color: rgba(1,1,1,0.5);
+	background-color: rgba(1,1,1,0.8);
 	text-align: center;
 	margin: 10% 0 0 0;
+	line-height: 2em;
 	padding-top: 30px;
 }
 
@@ -252,4 +266,8 @@ footer a {
 	text-decoration: none;
 	color: #ffa31a;
 	font-style: italic;
+}
+
+footer .validator {
+	padding-top: 1%;
 }
